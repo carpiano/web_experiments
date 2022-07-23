@@ -5,13 +5,10 @@ var scene = document.getElementById('scene');
 
 function callback () { console.log(parallaxInstance.depthsX)};
 function addValueToPage(text) {
-    var h = document.createElement("H1");
-    var t = document.createTextNode(text);
-    h.appendChild(t);
-    document.body.appendChild(h);
+    var data = document.getElementById("data");
+    data.innerText = text;
 }
 var parallaxInstance = new Parallax(scene,{ onLoad: callback });
-var first = document.getElementById("first");
 parallaxInstance.friction(0.2, 0.2);
 
 
