@@ -16,11 +16,11 @@
     "url": "https://github.com/carpiano/web_experiments/issues"
   },
   "homepage": "https://github.com/carpiano/web_experiments#readme",
-  "dependencies": {
-    "gyronorm": "^2.0.6"
-  },
   "devDependencies": {
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "parallax-js": "^3.1.0"
   }
 }
