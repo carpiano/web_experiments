@@ -23,7 +23,7 @@ parallaxInstance.friction(0.2, 0.2);
 console.log(sense1);
     sense1.tilt(function(data){
 
-        addValueToPage(data.toString())
+        addValueToPage(data.direction.toString() + "-" + data.magnitude.toString())
         console.log(data.toString())
     })
 //var sense = new Sense();
