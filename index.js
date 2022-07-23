@@ -18,7 +18,7 @@ parallaxInstance.friction(0.2, 0.2);
 
 
  var sense1 = sense.init({
-      debug: true
+      debug: false
     });
 console.log(sense1);
     sense1.tilt(function(data){
