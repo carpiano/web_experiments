@@ -1,4 +1,3 @@
-
 import argparse
 import math
 from termcolor import colored
@@ -19,7 +18,7 @@ ip="127.0.0.1"
 weki_port = 6448
 weki_channel = "/wek/inputs"
 client = udp_client.SimpleUDPClient(ip, weki_port)
-def send_from_OSC_to_weki(unused_addr, args,volume,a,b,c):
+def send_from_OSC_to_tcp(unused_addr, args,volume,a,b,c):
     print("buena! sending to weki")
     print(args, volume,a,b,c)
     client.send_message(weki_channel, float(args))
