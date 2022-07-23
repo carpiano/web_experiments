@@ -1,0 +1,8 @@
+/**
+* JavaScript project for accessing and normalizing the accelerometer and gyroscope data on mobile devices
+*
+* @author Doruk Eker <dorukeker@gmail.com>
+* @copyright Doruk Eker <http://dorukeker.com>
+* @version 2.0.4
+* @license MIT License | http://opensource.org/licenses/MIT
+*/
