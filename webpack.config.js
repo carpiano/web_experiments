@@ -9,5 +9,12 @@ const path = require('path');
         alias: {
           'node_modules': path.join(__dirname, 'node_modules'),
         }
-      }
-    };
+      },
+	devServer: {
+    static: {
+      directory: path.join(__dirname, ''),
+    },
+    compress: true,
+    port: 9000,
+	},
+};
